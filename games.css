@@ -73,9 +73,8 @@ img {
 }
 
 .card__image {
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  
+  object-fit: contain;
   border-top-left-radius: 0.25rem;
   border-top-right-radius: 0.25rem;
   filter: contrast(70%);
@@ -86,6 +85,8 @@ img {
   display: block;
   
 }
+
+
 
 .card__title {
   color: #b3b3b3;
